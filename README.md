@@ -126,9 +126,32 @@ export default {
 ### Using Stock/Map charts
 To use the stock map charts, you need to import and register them. For example, to use the map chart
 
-```
+```js
 import HighCharts from 'highcharts';
 import useMapCharts from 'highcharts/modules/map';
 
 useMapCharts(HighCharts);
 ```
+
+```html
+<template>
+  <vue-highcharts type="mapChart" :options="chartOptions"/>
+```
+
+### Local Dev Issues.
+Since Vue and Highcharts are not bundled with the module, you may need to add some webpack aliases.
+
+For example, the following needs to be added when using vue-cli to vue.config.js
+
+```js
+const path = require('path');
+module.exports = {
+  chainWebpack: (config) => {
+    config.resolve.alias.set('vue$', path.join(__dirname, 'node_modules/vue'));
+    config.resolve.alias.set('highcharts$', path.join(__dirname, 'node_modules/highcharts'));
+  },
+};
+```
+
+### License
+See [License.md](./LICENSE.md)
