@@ -1,19 +1,26 @@
 {
   "name": "vue3-highcharts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./dist/vue3-highcharts.common.js",
   "private": false,
   "scripts": {
     "test": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service build --target lib --name vue3-highcharts src/index.js",
-    "publish": "npm run lint && npm run test && npm publish"
+    "build:publish": "npm run test && npm run build && npm publish"
   },
   "author": "Alan Smith <alan@mralansmith.com>",
   "files": [
     "src"
   ],
   "license": "MIT",
+  "keywords": [
+    "vuejs",
+    "vue3",
+    "highchartsjs",
+    "highcharts",
+    "chartjs"
+  ],
   "bugs": {
     "url": "https://github.com/smithalan92/vue3-highcharts/issues"
   },

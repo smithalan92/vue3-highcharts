@@ -1,6 +1,5 @@
 import { mount } from '@vue/test-utils';
 import VueHighchart from '@/index';
-import { wrap } from 'highcharts';
 
 const defaultOptions = {
   series: [{
