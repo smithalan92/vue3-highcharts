@@ -1,5 +1,11 @@
 module.exports = {
   configureWebpack: {
-    externals: ['highcharts', 'vue'],
+    externals: {
+      highcharts: {
+        root: 'Highcharts',
+        commonjs: 'highcharts',
+        commonjs2: 'highcharts',
+      },
+    },
   },
 };
