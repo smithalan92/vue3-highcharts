@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   outputDir: path.resolve(__dirname, '../docs'),
-  publicPath: '/',
+  publicPath: '/vue3-highcharts/',
   configureWebpack: {
     resolve: {
       symlinks: false,
