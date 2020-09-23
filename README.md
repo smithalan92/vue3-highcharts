@@ -2,6 +2,8 @@
 
 A simple, fast, Vue 3 component for rendering Highcharts.js Charts written using the composition API.
 
+Demos [https://smithalan92.github.io/vue3-highcharts/](https://smithalan92.github.io/vue3-highcharts/)
+
 ## Minimum Requirements 
 
 Vue@3.0.0
@@ -10,6 +12,12 @@ Highcharts@8.0.0 ( older versions may work but not tested )
 Vue and Highcharts are not bundled with the module and need to be included in your projects dependencies.
 
 ## Usage
+Install with npm
+
+```
+npm i --save vue3-highcharts
+```
+
 You can register the component in 2 ways. 
 
 ### Register as a global component.
