@@ -1,6 +1,6 @@
 {
   "name": "vue3-highcharts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./dist/vue3-highcharts.common.js",
   "private": false,
   "scripts": {
