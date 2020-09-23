@@ -1,6 +1,6 @@
 {
   "name": "vue3-highcharts",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "./dist/vue3-highcharts.common.js",
   "private": false,
   "scripts": {
@@ -11,7 +11,8 @@
   },
   "author": "Alan Smith <alan@mralansmith.com>",
   "files": [
-    "src"
+    "src",
+    "dist/vue3-highcharts.common.js"
   ],
   "license": "MIT",
   "keywords": [
