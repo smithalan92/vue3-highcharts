@@ -1,7 +1,7 @@
 export default `
 <template>
   <vue-highcharts
-    type="chart"
+    type="mapChart"
     :options="chartOptions"
     :redrawOnUpdate="true"
     :oneToOneUpdate="false"

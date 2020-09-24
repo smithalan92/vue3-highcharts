@@ -1,7 +1,7 @@
 export default `
 <template>
   <vue-highcharts
-    type="chart"
+    type="stockChart"
     :options="chartOptions"
     :redrawOnUpdate="true"
     :oneToOneUpdate="false"
