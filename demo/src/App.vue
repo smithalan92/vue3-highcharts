@@ -20,6 +20,9 @@
       <StockChart/>
     </div>
     <div class="container__item">
+      <PolarChart/>
+    </div>
+    <div class="container__item">
       <MapChart/>
     </div>
   </div>
@@ -30,6 +33,7 @@ import SimpleChart from '@/components/SimpleChart.vue';
 import ReactiveChart from '@/components/ReactiveChart.vue';
 import StockChart from '@/components/StockChart.vue';
 import MapChart from '@/components/MapChart.vue';
+import PolarChart from '@/components/PolarChart.vue';
 
 export default {
   name: 'App',
@@ -38,6 +42,7 @@ export default {
     ReactiveChart,
     StockChart,
     MapChart,
+    PolarChart,
   },
 };
 </script>
