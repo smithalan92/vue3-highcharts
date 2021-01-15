@@ -82,14 +82,14 @@ A wrapper div is also created with a `.vue-highcharts` class around the actual c
     @rendered="onRender"
     @update="onUpdate"
     @destroy="onDestroy"/>
-<template>
+</template>
 ```
 ```js
 <script>
 import { ref } from 'vue';
 
 export default {
-  name: 'chart'
+  name: 'chart',
   setup() {
     const data = ref([1, 2, 3])
     const chartData = computed(() =>{
