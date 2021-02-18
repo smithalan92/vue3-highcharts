@@ -41,7 +41,7 @@ const vueHighcharts = defineComponent({
     if (options.value && Highcharts[props.type]) {
       watch(options, (newValue) => {
         if (chart.value) {
-          chart.value.update(newValue, props.redrawOnUpdate, props.oneToOneOnUpdate, props.animateOnUpdate);
+          chart.value.update(newValue, props.redrawOnUpdate, props.oneToOneUpdate, props.animateOnUpdate);
           emit('updated');
         }
       }, { deep: true });
