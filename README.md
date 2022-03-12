@@ -4,6 +4,11 @@ A simple, fast, Vue 3 component for rendering Highcharts.js Charts written using
 
 Demos [https://smithalan92.github.io/vue3-highcharts/](https://smithalan92.github.io/vue3-highcharts/)
 
+# Note: This package is not maintained
+This package was originally created when Vue 3 was first released as there was no component to use Vue 3 with highcharts. Since then the official highcharts package has been updated to support Vue 3. I recommend existing users switch to using the official package.
+
+[highcharts-vue](https://github.com/highcharts/highcharts-vue)
+
 ## Minimum Requirements 
 
 Vue@3.0.0
